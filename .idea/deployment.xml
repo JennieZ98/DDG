@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="KC110-server01" autoUploadExternalChanges="true">
     <serverData>
+      <paths name="Copy of project-level server 'KC110-server01'">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/share12/home/zhenni/PythonProject/DDG" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="KB435">
         <serverdata>
           <mappings>
@@ -19,7 +26,7 @@
       <paths name="KC110-server01">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/share12/home/zhenni/PythonProject/DDG" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
