@@ -826,8 +826,10 @@ class DDG(ERM):
         self.dis_img = networks.MsImageDis(hparams=hparams) 
         self.recon_xp_w = hparams['recon_xp_w']
         self.recon_xn_w = hparams['recon_xn_w']
-        self.margin = hparams['margin']
         self.eta = hparams['eta']
+        if hparams['stage'] != 0:
+            self.margin = hparams['margin']
+
         
         def to_gray(half=False): #simple
             def forward(x):
